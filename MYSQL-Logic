@@ -1,0 +1,15 @@
+create database PatnaBankOfIndia;
+
+use PatnaBankOfIndia;
+
+create table CreateAccount
+(
+ SerialNo int(2) primary key,
+ AccountNo varchar(30),
+ CustMobileNumber varchar(30),
+ CustName varchar(30),
+ CustAddress varchar(30),
+ InitialDepositAmount int(5)
+);
+
+select * from CreateAccount;
